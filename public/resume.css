@@ -1,0 +1,76 @@
+#resume {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #551a8b;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.educationandskills {
+    max-width: 400px;
+}
+
+.experience {
+    max-width: 600px;
+}
+
+.border {
+    border-bottom: dotted 3px #551a8b;
+    padding-bottom: 15px;
+}
+
+.education {
+    list-style-type: none;
+    padding: 0;
+}
+
+.exp {
+    list-style-type: none;
+    padding: 0;
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .container {
+        margin-left: 30px;
+        margin-right: 30px;
+        gap: 20px;
+    }
+
+    .educationandskills {
+        min-width: 225px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        }
+
+    .educationandskills {
+        max-width: 75vw;
+    }
+
+    .experience {
+        max-width: 75vw;
+    }
+}

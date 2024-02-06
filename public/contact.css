@@ -1,0 +1,30 @@
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact {
+    margin-top: 15px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+#paperplane {
+    margin-bottom: 40px;
+}
+
+#linkedin {
+    height: 50px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    #paperplane {
+        max-width: 250px;
+    }
+}

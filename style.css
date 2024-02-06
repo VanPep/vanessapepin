@@ -1,0 +1,122 @@
+/* Fonts */
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pixelify-sans {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+/* All pages */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#cca8e9, white);
+    height: 70px;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+.navsections {
+    display: flex;
+    gap: 40px;
+    padding-right: 40px;
+}
+
+a:link {
+    color: #551a8b;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.vanessapepin {
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #551a8b;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+h2 {
+    color: #551a8b;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #551a8b;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.footer {
+    background: linear-gradient(white, #cca8e9);
+    height: 70px;
+    width: 100%;
+}
+
+#copyrightbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+.initials {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .vanessapepin {
+        font-size: 20px;
+    }
+
+    .navsections {
+        font-size: 12px;
+        gap: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .fullname {
+        display: none;
+    }
+
+    .initials {
+        display: inline;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+}
