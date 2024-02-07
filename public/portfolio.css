@@ -31,7 +31,7 @@
     }
 }
 
-@media (max-height: 619px) {
+@media (max-height: 680px) {
     .footer {
         position: static;
     }
