@@ -30,3 +30,9 @@
         padding-right: 30px;
     }
 }
+
+@media (max-height: 619px) {
+    .footer {
+        position: static;
+    }
+}
